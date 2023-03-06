@@ -4,39 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/FooterComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/HeaderComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProtectedRoutesComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/user/RoutesWithUserChatComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/user/UserChatComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminAnalyticsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminChatsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminCreateProductPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditProductPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditUserPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrdersPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserProfilePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/carousel/carousel-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/games-category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/monitors-category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/images/tablets-category.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/chats.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/CategoryCardComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/PaginationComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProductCarouselComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/ProductForListComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/SortOptionsComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/AttributesFilterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/CategoryFilterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/PriceFilterComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/RatingFilterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/FooterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/FooterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/user/UserChatComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/user/UserChatComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -57,11 +53,11 @@
       </map>
     </option>
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="recentBranches">
       <RecentBranches>
@@ -115,6 +111,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Developing/Fullstack/e-commerce-mern",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -150,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678044453201</updated>
       <workItem from="1678044454168" duration="10263000" />
+      <workItem from="1678129777614" duration="7820000" />
     </task>
     <servers />
   </component>
@@ -181,5 +179,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style" />
   </component>
 </project>
