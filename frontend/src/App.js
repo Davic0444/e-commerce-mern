@@ -67,7 +67,7 @@ function App() {
                     <Route path="/admin/users" element={<AdminUsersPage/>}/>
                     <Route path="/admin/edit-user" element={<AdminEditUserPage/>}/>
                     <Route path="/admin/products" element={<AdminProductsPage/>}/>
-                    <Route path="/admin/order" element={<AdminOrderPage/>}/>
+                    <Route path="/admin/orders" element={<AdminOrderPage/>}/>
                     <Route path="/admin/order-details" element={<AdminOrderDetailsPage/>}/>
                     <Route path="/admin/create-new-product" element={<AdminCreateProductPage/>}/>
                     <Route path="/admin/edit-product" element={<AdminEditProductPage/>}/>
@@ -78,8 +78,7 @@ function App() {
             <FooterComponent/>
         </BrowserRouter>
 
-    )
-        ;
+    );
 }
 
 export default App;
