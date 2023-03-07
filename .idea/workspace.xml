@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Improve filtering">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/CategoryFilterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/CategoryFilterComponent.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Improve category filter">
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/AttributesFilterComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/filterQueryResultOptions/AttributesFilterComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductListPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
       <workItem from="1678044454168" duration="10263000" />
       <workItem from="1678129777614" duration="8581000" />
       <workItem from="1678219271927" duration="47000" />
-      <workItem from="1678220058327" duration="129000" />
+      <workItem from="1678220058327" duration="199000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -139,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678139413516</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Improve category filter">
+      <created>1678220219585</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678220219585</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +179,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style" />
     <MESSAGE value="Improve filtering" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve filtering" />
+    <MESSAGE value="Improve category filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve category filter" />
   </component>
 </project>
