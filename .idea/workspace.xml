@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Basic details page">
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AddedToCartMessageComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Added to cart message, and improve product details">
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/AddedToCartMessageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AddedToCartMessageComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +130,7 @@
       <workItem from="1678129777614" duration="8581000" />
       <workItem from="1678219271927" duration="47000" />
       <workItem from="1678220058327" duration="637000" />
-      <workItem from="1678302281375" duration="1727000" />
+      <workItem from="1678302281375" duration="1878000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678302760250</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added to cart message, and improve product details">
+      <created>1678308855097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308855097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +227,7 @@
     <MESSAGE value="Improve pagination" />
     <MESSAGE value="Scroll to top on every new pages" />
     <MESSAGE value="Basic details page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic details page" />
+    <MESSAGE value="Added to cart message, and improve product details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added to cart message, and improve product details" />
   </component>
 </project>
