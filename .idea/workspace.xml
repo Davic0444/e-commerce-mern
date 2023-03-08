@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Improve component for product list">
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Used order, profile and cart page">
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/admin/AdminChatRoomComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/admin/AdminLinksComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/PaginationComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/PaginationComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminAnalyticsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminAnalyticsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminChatsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminChatsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminCreateProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminCreateProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditUserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminEditUserPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminProductsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +140,8 @@
       <workItem from="1678044454168" duration="10263000" />
       <workItem from="1678129777614" duration="8581000" />
       <workItem from="1678219271927" duration="47000" />
-      <workItem from="1678220058327" duration="393000" />
+      <workItem from="1678220058327" duration="637000" />
+      <workItem from="1678302281375" duration="2845000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -160,7 +171,77 @@
       <option name="project" value="LOCAL" />
       <updated>1678220418884</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Improve pagination">
+      <created>1678220466403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678220466403</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Scroll to top on every new pages">
+      <created>1678302661649</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302661649</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Basic details page">
+      <created>1678302760250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678302760250</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added to cart message, and improve product details">
+      <created>1678308855097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308855097</updated>
+    </task>
+    <task id="LOCAL-00009" summary="improve message component">
+      <created>1678308890574</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308890574</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Improve product description page">
+      <created>1678308936705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308936705</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Improve reviews section">
+      <created>1678308982472</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308982472</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cart page and image hover effect">
+      <created>1678309206270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678309206270</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Finish register page on frontend side">
+      <created>1678309288514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678309288514</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Used order, profile and cart page">
+      <created>1678309459326</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678309459326</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +277,16 @@
     <MESSAGE value="Improve category filter" />
     <MESSAGE value="Improve product list and attribute" />
     <MESSAGE value="Improve component for product list" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve component for product list" />
+    <MESSAGE value="Improve pagination" />
+    <MESSAGE value="Scroll to top on every new pages" />
+    <MESSAGE value="Basic details page" />
+    <MESSAGE value="Added to cart message, and improve product details" />
+    <MESSAGE value="improve message component" />
+    <MESSAGE value="Improve product description page" />
+    <MESSAGE value="Improve reviews section" />
+    <MESSAGE value="Cart page and image hover effect" />
+    <MESSAGE value="Finish register page on frontend side" />
+    <MESSAGE value="Used order, profile and cart page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used order, profile and cart page" />
   </component>
 </project>
