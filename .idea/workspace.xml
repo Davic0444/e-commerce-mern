@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Cart page and image hover effect">
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Finish register page on frontend side">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/RegisterPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrdersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrdersPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserProfilePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserProfilePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +135,7 @@
       <workItem from="1678129777614" duration="8581000" />
       <workItem from="1678219271927" duration="47000" />
       <workItem from="1678220058327" duration="637000" />
-      <workItem from="1678302281375" duration="2256000" />
+      <workItem from="1678302281375" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678309206270</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Finish register page on frontend side">
+      <created>1678309288514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1678309288514</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +272,7 @@
     <MESSAGE value="Improve product description page" />
     <MESSAGE value="Improve reviews section" />
     <MESSAGE value="Cart page and image hover effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cart page and image hover effect" />
+    <MESSAGE value="Finish register page on frontend side" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish register page on frontend side" />
   </component>
 </project>
