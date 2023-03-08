@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="improve message component">
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Improve product description page">
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProductDetailsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <workItem from="1678129777614" duration="8581000" />
       <workItem from="1678219271927" duration="47000" />
       <workItem from="1678220058327" duration="637000" />
-      <workItem from="1678302281375" duration="1912000" />
+      <workItem from="1678302281375" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -195,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678308890574</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Improve product description page">
+      <created>1678308936705</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678308936705</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="Basic details page" />
     <MESSAGE value="Added to cart message, and improve product details" />
     <MESSAGE value="improve message component" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve message component" />
+    <MESSAGE value="Improve product description page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improve product description page" />
   </component>
 </project>
