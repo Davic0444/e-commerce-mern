@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Setup the basics database and folders">
-      <change afterPath="$PROJECT_DIR$/backend/models/ProductModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/ReviewModel.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Product and review mongodb model">
+      <change afterPath="$PROJECT_DIR$/backend/models/CategoryModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/OrderModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/UserModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <workItem from="1678220058327" duration="637000" />
       <workItem from="1678302281375" duration="6452000" />
       <workItem from="1678398475537" duration="74000" />
-      <workItem from="1678469236041" duration="5578000" />
+      <workItem from="1678469236041" duration="7819000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -271,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678470859312</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Product and review mongodb model">
+      <created>1678478488301</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678478488301</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +326,7 @@
     <MESSAGE value="Fully finish frontend side of admin components and pages" />
     <MESSAGE value="Install recharts" />
     <MESSAGE value="Setup the basics database and folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup the basics database and folders" />
+    <MESSAGE value="Product and review mongodb model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Product and review mongodb model" />
   </component>
 </project>
