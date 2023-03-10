@@ -6,10 +6,10 @@ const port = 7000
 
 // mongoose connection
 const connectDB = require('./config/db');
+const Product = require("./models/ProductModel");
 connectDB();
 
-app.get('/', function (req, res) {
-    console.log("first")
+app.get('/', async (req, res) => {
     res.send('Hello World')
 });
 

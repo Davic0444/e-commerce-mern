@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Install recharts">
-      <change afterPath="$PROJECT_DIR$/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/config/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/apiRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/productRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Setup the basics database and folders">
+      <change afterPath="$PROJECT_DIR$/backend/models/ProductModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/ReviewModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,7 @@
       <workItem from="1678220058327" duration="637000" />
       <workItem from="1678302281375" duration="6452000" />
       <workItem from="1678398475537" duration="74000" />
-      <workItem from="1678469236041" duration="1248000" />
+      <workItem from="1678469236041" duration="5578000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -268,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678309945597</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Setup the basics database and folders">
+      <created>1678470859312</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678470859312</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +319,7 @@
     <MESSAGE value="Used order, profile and cart page" />
     <MESSAGE value="Fully finish frontend side of admin components and pages" />
     <MESSAGE value="Install recharts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Install recharts" />
+    <MESSAGE value="Setup the basics database and folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup the basics database and folders" />
   </component>
 </project>
