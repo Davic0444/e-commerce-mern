@@ -1,33 +1,29 @@
-const mongoose = require('mongoose');
-const User = require('./UserModel');
+const mongoose = require("mongoose")
+const User = require("./UserModel")
 
-const orderScema = new mongoose.Schema({
+const orderSchema = mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         required: true,
-        ref: 'User',
+        ref: User,
     },
     orderTotal: {
-        itemCount: {
-            type: Number,
-            required: true,
-        },
-        cartSubtotal: {
-            type: Number,
-            required: true,
-        }
+        itemsCount: {type: Number, required: true},
+        cartSubtotal: {type: Number, required: true}
     },
-    cartItems: [{
-        name: {type: String, required: true,},
-        price: {type: Number, required: true,},
-        image: {path: {type: String, required: true},},
-        quantity: {type: Number, required: true},
-        count: {type: Number, required: true},
-    }],
-    transaction: {
+    cartItems: [
+        {
+            name: {type: String, required: true},
+            price: {type: Number, required: true},
+            image: {path: {type: String, required: true}},
+            quantity: {type: Number, required: true},
+            count: {type: Number, required: true}
+        }
+    ],
+    transactionResult: {
         status: {type: String},
-        createdAt: {type: String},
-        amount: {type:Number}
+        createTime: {type: String},
+        amount: {type: Number}
     },
     isPaid: {
         type: Boolean,
@@ -49,6 +45,6 @@ const orderScema = new mongoose.Schema({
     timestamps: true,
 })
 
-const Order = mongoose.model('Order', orderScema);
+const Order = mongoose.model("Order", orderSchema)
 
-module.exports = Order;
+module.exports = Order
