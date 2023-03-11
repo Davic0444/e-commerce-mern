@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Category, Order, User database model schemas">
-      <change afterPath="$PROJECT_DIR$/backend/seeder/categories.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeder/orders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeder/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeder/reviews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeder/seeder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/seeder/users.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Done with models and seeds for testing">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/productController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/productController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/CategoryModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/CategoryModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/ProductModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/ProductModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/UserModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/UserModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/apiRoutes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +153,8 @@
       <workItem from="1678220058327" duration="637000" />
       <workItem from="1678302281375" duration="6452000" />
       <workItem from="1678398475537" duration="74000" />
-      <workItem from="1678469236041" duration="9699000" />
+      <workItem from="1678469236041" duration="10659000" />
+      <workItem from="1678564698592" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -293,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678480185982</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Done with models and seeds for testing">
+      <created>1678482179645</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678482179645</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +347,7 @@
     <MESSAGE value="Setup the basics database and folders" />
     <MESSAGE value="Product and review mongodb model" />
     <MESSAGE value="Category, Order, User database model schemas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category, Order, User database model schemas" />
+    <MESSAGE value="Done with models and seeds for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done with models and seeds for testing" />
   </component>
 </project>
