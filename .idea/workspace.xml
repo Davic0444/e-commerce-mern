@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Done with models and seeds for testing">
-      <change afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/orderController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/orderRoutes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/userRoutes.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Routes and controllers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/apiRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/categoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/categoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/categoryRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,7 @@
       <workItem from="1678302281375" duration="6452000" />
       <workItem from="1678398475537" duration="74000" />
       <workItem from="1678469236041" duration="10659000" />
-      <workItem from="1678564698592" duration="1267000" />
+      <workItem from="1678564698592" duration="4964000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -296,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678482179645</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Routes and controllers">
+      <created>1678566992438</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678566992438</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +351,7 @@
     <MESSAGE value="Product and review mongodb model" />
     <MESSAGE value="Category, Order, User database model schemas" />
     <MESSAGE value="Done with models and seeds for testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with models and seeds for testing" />
+    <MESSAGE value="Routes and controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Routes and controllers" />
   </component>
 </project>
