@@ -7,11 +7,9 @@ import RatingFilterComponent from "../components/filterQueryResultOptions/Rating
 import CategoryFilterComponent from "../components/filterQueryResultOptions/CategoryFilterComponent";
 import AttributesFilterComponent from "../components/filterQueryResultOptions/AttributesFilterComponent";
 
-import axios from "axios";
+
 const ProductListPage = () => {
-    axios.get('/api/products').then((res) => {
-        console.log(res)
-    })
+
     return (
         <Container fluid>
             <Row>
@@ -34,7 +32,7 @@ const ProductListPage = () => {
                             <AttributesFilterComponent />
                         </ListGroup.Item>
                         <ListGroup.Item>
-                            <Button variant="primary">Filter</Button>{""}
+                            <Button variant="primary">Filter</Button>{" "}
                             <Button variant="danger">Reset filters</Button>
                         </ListGroup.Item>
                     </ListGroup>
@@ -55,4 +53,3 @@ const ProductListPage = () => {
 };
 
 export default ProductListPage;
-
