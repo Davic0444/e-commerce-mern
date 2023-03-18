@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Disconnect database connection when leaving the page">
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Show users on the page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminUsersPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/components/UsersPageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/UsersPageComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +159,7 @@
       <workItem from="1678652176494" duration="805000" />
       <workItem from="1678994091520" duration="17000" />
       <workItem from="1679003777087" duration="154000" />
-      <workItem from="1679165827384" duration="346000" />
+      <workItem from="1679165827384" duration="408000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -355,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679166143283</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Show users on the page">
+      <created>1679166185018</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679166185018</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,7 +395,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Improve component for product list" />
     <MESSAGE value="Improve pagination" />
     <MESSAGE value="Scroll to top on every new pages" />
     <MESSAGE value="Basic details page" />
@@ -411,6 +419,7 @@
     <MESSAGE value="node_modul" />
     <MESSAGE value="Manage local state for react&#10;Storing Users" />
     <MESSAGE value="Disconnect database connection when leaving the page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Disconnect database connection when leaving the page" />
+    <MESSAGE value="Show users on the page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show users on the page" />
   </component>
 </project>
