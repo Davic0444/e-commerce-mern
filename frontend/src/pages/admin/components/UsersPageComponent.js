@@ -4,7 +4,7 @@ import AdminLinksComponent from "../../../components/admin/AdminLinksComponent";
 
 import { useState, useEffect } from "react";
 
-const UsersPageComponent = ({ fetchUsers }) => {
+const UsersPageComponent = ({fetchUsers}) => {
     const [users, setUsers] = useState([]);
 
     const deleteHandler = () => {
@@ -12,16 +12,8 @@ const UsersPageComponent = ({ fetchUsers }) => {
     };
 
     useEffect(() => {
-        const abctrl = new AbortController();
-        fetchUsers(abctrl)
-            .then((res) => setUsers(res))
-            .catch((er) =>
-                console.log(
-                    er.response.data.message ? er.response.data.message : er.response.data
-                )
-            );
-        return () => abctrl.abort();
-    }, []);
+        fetchUsers().then(res => setUsers(res));
+    },[])
 
     return (
         <Row className="m-5">
@@ -30,6 +22,7 @@ const UsersPageComponent = ({ fetchUsers }) => {
             </Col>
             <Col md={10}>
                 <h1>User List</h1>
+                {console.log(users)}
                 <Table striped bordered hover responsive>
                     <thead>
                     <tr>
@@ -42,18 +35,18 @@ const UsersPageComponent = ({ fetchUsers }) => {
                     </tr>
                     </thead>
                     <tbody>
-                    {users.map(
-                        (user, idx) => (
+                    {["bi bi-check-lg text-success", "bi bi-x-lg text-danger"].map(
+                        (item, idx) => (
                             <tr key={idx}>
                                 <td>{idx + 1}</td>
-                                <td>{user.name}</td>
-                                <td>{user.lastName}</td>
-                                <td>{user.email}</td>
+                                <td>Mark</td>
+                                <td>Twain</td>
+                                <td>email@email.com</td>
                                 <td>
-                                    {user.isAdmin ? <i className="bi bi-check-lg text-success"></i> : <i className="bi bi-x-lg text-danger"></i>}
+                                    <i className={item}></i>
                                 </td>
                                 <td>
-                                    <LinkContainer to={`/admin/edit-user/${user._id}`}>
+                                    <LinkContainer to="/admin/edit-user">
                                         <Button className="btn-sm">
                                             <i className="bi bi-pencil-square"></i>
                                         </Button>
@@ -78,4 +71,3 @@ const UsersPageComponent = ({ fetchUsers }) => {
 };
 
 export default UsersPageComponent;
-
