@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Crud operation with products">
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrdersPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/OrderDetailsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/OrdersPageComponent.js" afterDir="false" />
+    <list default="true" id="b8429b0c-c3fe-49a8-a208-0f60709489cb" name="Changes" comment="Order and details">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CartItemComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CartItemComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/CartPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderDetailsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/AdminOrderPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/components/OrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/components/OrderDetailsPageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserCartDetailsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/UserOrderDetailsPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Developing/Fullstack/e-commerce-mern",
+    "last_opened_file_path": "D:/Developing/Fullstack/captian-cyber-cattle",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -163,7 +164,8 @@
       <workItem from="1678652176494" duration="805000" />
       <workItem from="1678994091520" duration="17000" />
       <workItem from="1679003777087" duration="154000" />
-      <workItem from="1679165827384" duration="1156000" />
+      <workItem from="1679165827384" duration="1264000" />
+      <workItem from="1680883219246" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="- Header and footer styling&#10;- Carousel and card component&#10;- Chat bubble and style">
       <created>1678139413516</created>
@@ -382,7 +384,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679166532196</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Order and details">
+      <created>1679167004632</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679167004633</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +422,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Basic details page" />
     <MESSAGE value="Added to cart message, and improve product details" />
     <MESSAGE value="improve message component" />
     <MESSAGE value="Improve product description page" />
@@ -438,6 +446,7 @@
     <MESSAGE value="Show users on the page" />
     <MESSAGE value="Delete user from the list" />
     <MESSAGE value="Crud operation with products" />
-    <option name="LAST_COMMIT_MESSAGE" value="Crud operation with products" />
+    <MESSAGE value="Order and details" />
+    <option name="LAST_COMMIT_MESSAGE" value="Order and details" />
   </component>
 </project>
